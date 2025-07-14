@@ -82,7 +82,7 @@
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
-    transition: all .3s ease-in-out;
+    transition: all .2s ease-in-out;
     background: transparent;
     border: 2px solid green;
     box-shadow: 0px 2px 2px black;
@@ -138,18 +138,24 @@
 
 #list-style li span {
     position: absolute;
-    right: 10px;
+    right: 30px;
     top: 5px;
-    width: 40px;
     height: 40px;
-    font-size: 22px;
-    color: #555;
+    width: 60px;
+    font-size: 15px;
+    color: aqua;
     line-height: 40px;
     text-align: center;
-    border-radius: 50%;
+    border: 2px solid green;
+    border-radius: 30px;
+    transition: all .2s ease-in-out;
 }
 
 #list-style li span:hover {
-    background-color: #c4c4c4;
+    transform: translateY(2px);
+    background-color: green;
+    color: black;
+    font-weight: bolder;
+    box-shadow: 0px -2px 5px black;
 
 }
