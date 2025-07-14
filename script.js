@@ -17,7 +17,7 @@ function task () {
         result.appendChild(li)
         
         let span = document.createElement('span'); // append span
-        span.innerHTML = '\u00d7'
+        span.innerHTML = 'Delete'
         li.appendChild(span)
         
         save(); // for the save data
